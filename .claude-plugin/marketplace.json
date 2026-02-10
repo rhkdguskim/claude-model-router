@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-model-router",
+  "description": "Intelligent multi-model routing for Claude Code (Antigravity + Codex)",
+  "owner": {
+    "name": "rhkdguskim",
+    "email": "rhkdguskim1@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-model-router",
+      "description": "Automatic task-based model routing - Gemini Pro for exploration, Gemini Flash for frontend, Codex for reasoning",
+      "version": "1.0.0",
+      "author": {
+        "name": "rhkdguskim",
+        "email": "rhkdguskim1@gmail.com"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/rhkdguskim/claude-model-router",
+      "tags": ["model-routing", "antigravity", "codex", "gemini", "multi-model"]
+    }
+  ]
+}
